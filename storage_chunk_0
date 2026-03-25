@@ -1,0 +1,5 @@
+Hello this is my distributed file system test.
+This file will be split into chunks.\
+Distributed systems are a fundamental part of modern computing, enabling applications to scale across multiple machines and handle large volumes of data efficiently. In a distributed file system, files are divided into smaller chunks and stored across different nodes, which improves performance, fault tolerance, and reliability. Each node in the system is responsible for storing a subset of the data, and a central coordinator or master node keeps track of metadata such as file locations and chunk mappings. This architecture allows clients to upload and download files seamlessly without worrying about where the data is physically stored.
+
+One of the key advantages of a distributed file system is its ability to handle failures gracefully. If one node goes down, the system can still retrieve data from other nodes that hold replicated copies of the same chunk. This ensures high availability and durability of data. Additionall

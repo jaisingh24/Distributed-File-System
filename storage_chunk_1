@@ -1,0 +1,5 @@
+y, distributing chunks across nodes allows parallel processing, which significantly speeds up read and write operations for large files. Systems like Hadoop Distributed File System (HDFS) and Google File System (GFS) use similar concepts to manage massive datasets.
+
+Another important aspect is efficient data transfer. When sending files over the network, it is crucial to define clear boundaries for each chunk. This is typically done by sending metadata such as chunk size before transmitting the actual data, ensuring that the receiving node reads the correct number of bytes. Without this, data corruption or incomplete transfers can occur due to stream handling issues. Using structured communication protocols and proper buffering techniques helps maintain data integrity.
+
+In this project, the distributed file system is implemented using Java sockets, where a client splits a file into chunks and distributes them across multiple storage nodes. Each storage node runs on a different port and listens for incomin

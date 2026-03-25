@@ -1,0 +1,3 @@
+g requests to store or retrieve data. The master node coordinates the system by registering storage nodes and providing their details to clients when needed. This setup simulates a real-world distributed environment on a local machine.
+
+Overall, building a distributed file system helps in understanding core concepts such as networking, concurrency, fault tolerance, and data consistency. It also provides practical experience in designing scalable systems, which is highly valuable in backend engineering and system design interviews.
